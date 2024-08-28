@@ -40,7 +40,7 @@ function KareninAlani(kenaruzunlugu) {
   return kenaruzunlugu * kenaruzunlugu;
 }
 
-let kareAlani = KareninAlani(kenaruzunlugu);
+let kareAlani = KareninAlani(5);
 console.log("Karenin alanı:", kareAlani);
 
 /* (Oto test yok) Yukarıdaki KareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -54,10 +54,10 @@ console.log("Karenin alanı:", kareAlani);
 */
 
 function CemberinCevresi(yariCapi) {
-  return pi * Math.pow(yaricap, 2);
+  return pi * 2 * yariCapi;
 }
 
-let alan = CemberinAlani(yariCap, pi);
+let alan = CemberinAlani(5, pi);
 console.log("Çemberin alanı:", alan);
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
